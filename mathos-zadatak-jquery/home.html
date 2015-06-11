@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <script src='js/script.js'></script>
+
+		<title>ToDoLista</title>
+	</head>
+	<body>
+
+        <div class="container">
+    	<img src="slika.jpg"  width="80" height="70" class="dg"/>
+    
+            <h1>To do lista</h1>
+            <input id="unos" type='text' name='unos' value='unesi novi zadatak' onfocus="if (this.value == 'unesi novi zadatak') {this.value = '';}" onblur="if (this.value == '') {this.value = 'unesi novi zadatak';}"/> 
+            <ul id="list">
+            </ul>
+        </div>
+	</body>
+</html>
